@@ -32,7 +32,7 @@ cask "sm-beta" do
     skip "Auto-generated on release."
   end
 
-  binary "sm-beta"
+  binary "sm"
 
   postflight do
     if OS.mac?
